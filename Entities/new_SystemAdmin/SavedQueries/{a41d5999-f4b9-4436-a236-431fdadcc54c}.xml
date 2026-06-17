@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{a41d5999-f4b9-4436-a236-431fdadcc54c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_systemadminid">
+          <cell name="new_title" width="300" />
+          <cell name="new_name" width="150" />
+          <cell name="new_adminemail" width="150" />
+          <cell name="new_role" width="150" />
+          <cell name="new_isactive" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_systemadmin">
+          <attribute name="new_systemadminid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_name" />
+          <attribute name="new_adminemail" />
+          <attribute name="new_role" />
+          <attribute name="new_isactive" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active System Admins" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

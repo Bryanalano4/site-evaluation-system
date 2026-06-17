@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{03ce248a-8acf-4c9a-9ee8-808c6c6d018e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{81ea8b55-33f0-4bf4-b5d8-de2efbc3f8e1}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c6d2c606-97cc-4bfc-a4aa-0167ab70d568}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{381433f6-8b1a-4121-b13e-78f707ce1668}">
+                        <labels>
+                          <label description="Request ID" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_requestid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crfaa_requestid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{78f3a997-a5e4-4d73-8e91-e07f5a7c18db}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{52ab08ff-06f5-4e31-94ed-a4a08a86079f}">
+                        <labels>
+                          <label description="Site Name" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_sitename" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_sitename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{40eae3f2-05c2-44b2-ab3c-7b909ef94fd6}">
+                        <labels>
+                          <label description="Site Number" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_sitenumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_sitenumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51ed8bc0-d59f-4eae-8d6c-b2a44639cb2c}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_address" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_address" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{65cfb349-8a4e-46d4-9f5e-5c1d0094f764}">
+                        <labels>
+                          <label description="Google Coordinates" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_googlecoordinates" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_googlecoordinates" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8dff910b-8f35-4329-8dc6-d9b421b6b146}">
+                        <labels>
+                          <label description="Contract Term" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_contractterm" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_contractterm" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f0128b23-acdd-4985-941c-5c6691c5cf37}">
+                        <labels>
+                          <label description="Contract Duration" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_contractduration" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_contractduration" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6c4e91c2-e44a-4835-8980-f0259c39e5df}">
+                        <labels>
+                          <label description="Created By" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_createdby" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_createdby" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce393205-0eff-49b0-b0c1-d947e6c9799e}">
+                        <labels>
+                          <label description="Date Created" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_datecreated" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crfaa_datecreated" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2d4d6ce-e188-4403-bc45-f9c6fbd57031}">
+                        <labels>
+                          <label description="Serial Number" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_serialnumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_serialnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c469f09-64fa-492b-88c9-ceeaf21537a8}">
+                        <labels>
+                          <label description="Project Type" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_projecttype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_projecttype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d759f685-c672-4b95-930d-7b06960f3018}">
+                        <labels>
+                          <label description="OOH Category" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_oohcategory" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_oohcategory" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{63202059-9c47-4c33-ba93-fde0b68b8945}">
+                        <labels>
+                          <label description="OOH Medium" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_oohmedium" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_oohmedium" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37ce5e30-f3d1-4b21-ac15-bcd77787391a}">
+                        <labels>
+                          <label description="OOH Type" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_oohtype" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_oohtype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f4d45c1b-686d-48d6-815a-f764508c94e5}">
+                        <labels>
+                          <label description="NON-OOH Category" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_nonoohcategory" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_nonoohcategory" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f521d2ce-71e1-4a4a-8bdc-6bb3b2b24315}">
+                        <labels>
+                          <label description="NON-OOH Type" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_nonoohtype" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_nonoohtype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6db11058-4d2f-4d55-b318-17297882bee0}">
+                        <labels>
+                          <label description="Size" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_size" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_size" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e03edcf2-261c-4797-8955-326f7d211c72}">
+                        <labels>
+                          <label description="Monthly Rental" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_monthlyrental" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="crfaa_monthlyrental" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a56faee-0744-4330-9c2b-5fd1cfbe8a0f}">
+                        <labels>
+                          <label description="Projected Selling Rate" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_projectedsellingrate" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="crfaa_projectedsellingrate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee08cc89-05f3-46c5-9401-b0242a591441}">
+                        <labels>
+                          <label description="Attachment URL" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_attachmenturl" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_attachmenturl" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f52d1d85-b511-48af-8ffd-c997b75bcdd1}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_status" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

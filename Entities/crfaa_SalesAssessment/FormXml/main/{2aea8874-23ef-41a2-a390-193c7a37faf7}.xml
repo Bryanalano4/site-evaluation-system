@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2aea8874-23ef-41a2-a390-193c7a37faf7}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{efb54d31-72ea-450a-a276-10c8349475e0}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{95216e4a-2131-4a5b-a90e-3b8b5fb743e0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c4d88f1-0cb8-443b-9328-d2622a66b7aa}">
+                        <labels>
+                          <label description="Assessment Name" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_assessmentname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crfaa_assessmentname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2becaaa3-e2d2-4593-9b97-66195e39a21f}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{266bdada-d903-4b34-bdee-9208ac354502}">
+                        <labels>
+                          <label description="Site Evaluation" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_siteevaluation" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_siteevaluation" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{934f1fe3-9d1c-44ff-ba02-b292edd7e29a}">
+                        <labels>
+                          <label description="Target Clients/Team" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_targetclientsteam" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="crfaa_targetclientsteam" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3f349b01-4ab7-424a-be3d-ae6ed4aed236}">
+                        <labels>
+                          <label description="Projected Loading" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_projectedloading" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_projectedloading" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{23652e4d-0063-4272-bf81-726ecea937e8}">
+                        <labels>
+                          <label description="Amount Projection" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_amountprojection" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_amountprojection" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{61771def-7e27-469a-8a2f-92707222f600}">
+                        <labels>
+                          <label description="Projected Selling Rate" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_projectedsellingrate" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_projectedsellingrate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b04cec37-52d0-4a13-bd33-6babff2170b1}">
+                        <labels>
+                          <label description="Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_remarks" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="crfaa_remarks" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3cdb221d-800e-434e-9e9a-db6f5e63a467}">
+                        <labels>
+                          <label description="Submitted At" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_submittedat" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crfaa_submittedat" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

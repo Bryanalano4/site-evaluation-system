@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crfaa_siteevaluationsystem_8ac1a</Name>
+  <AppVersion>2026-06-11T06:23:44Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>0.0.0.0</CreatedByClientVersion>
+  <MinClientVersion>0.0.0.0</MinClientVersion>
+  <Tags>{"planId":"","projectId":"9040f8d2-a63a-4cf8-ae0a-5c470c23fa77"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(255,255,255,1)</BackgroundColor>
+  <DisplayName>Site Evaluation System</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"c26f0a83-7671-430f-bc96-ae8456e53eec":{"id":"/providers/Microsoft.PowerApps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://static.powerapps.com/resource/ppcr/releases/v1.0.1813/1.0.1813.4743/sharepointonline/icon.png","dataSources":["sales","bdmanagement","operations","bdaquisition","marketing","nonoohtypes","nonoohcategories","oohcategories","oohmediums","oohtypes","siteevaluationsystem","departmentrequestor","industries","approvermatrix","departmentapprover","referenceimage","systemadmin","non_oohcategories","non_oohtypes"],"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https%253A%252F%252Felev8mediainc.sharepoint.com%252Fsites%252FSiteEvaluationSystem97":{"dataSources":{"sales":{"tableName":"c1d74ec7-c07a-47e4-b98a-08c499032901"},"bdmanagement":{"tableName":"82fffdc0-7de2-4fec-a9d4-f0cb30565a7e"},"operations":{"tableName":"c98da9e1-dd48-4ed7-b7ec-6dc33aa97b58"},"bdaquisition":{"tableName":"da53694b-cee6-4893-8399-ee1ef37a35f4"},"marketing":{"tableName":"cc054d50-5159-4078-b921-cae3c6690a0e"},"nonoohtypes":{"tableName":"84acd154-8928-4461-93e2-e23cd4338455"},"nonoohcategories":{"tableName":"a6dffab0-aa5e-4128-bfc6-ad226947cbf4"},"oohcategories":{"tableName":"0f604728-1e8d-410f-ad84-fa615544646d"},"oohmediums":{"tableName":"a32f64c8-64a6-43a3-b0b0-a9f1d97d5a5e"},"oohtypes":{"tableName":"2777cbec-3252-4dda-ae9b-3f3d11fbc659"},"siteevaluationsystem":{"tableName":"4bee49f9-cabc-48e9-a2ca-cbd077138473"},"departmentrequestor":{"tableName":"e820966d-5c19-481f-9178-f232ab1603e3"},"industries":{"tableName":"87d55ada-b2c6-4382-8e5b-9eb211c2233e"},"approvermatrix":{"tableName":"d5f275fe-ece7-4abe-b07b-4be9cca6d9e5"},"departmentapprover":{"tableName":"b3dbbc3b-a7e3-48c9-886f-4037ebc47156"},"referenceimage":{"tableName":"c51065d8-9e94-4dd4-830e-89967096b0b0"},"systemadmin":{"tableName":"9e0376b0-2ffe-4dd9-8d0f-1327c819ca1a"},"non_oohcategories":{"tableName":"a6dffab0-aa5e-4128-bfc6-ad226947cbf4"},"non_oohtypes":{"tableName":"84acd154-8928-4461-93e2-e23cd4338455"}}}},"apiTier":"Standard"}}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"crfaa_industry":{"entitySetName":"crfaa_industries","logicalName":"crfaa_industry"},"crfaa_oohmedium":{"entitySetName":"crfaa_oohmediums","logicalName":"crfaa_oohmedium"},"crfaa_oohtype":{"entitySetName":"crfaa_oohtypes","logicalName":"crfaa_oohtype"},"crfaa_departmentrequestor":{"entitySetName":"crfaa_departmentrequestors","logicalName":"crfaa_departmentrequestor"},"crfaa_departmentapprover":{"entitySetName":"crfaa_departmentapprovers","logicalName":"crfaa_departmentapprover"},"crfaa_nonoohcategory":{"entitySetName":"crfaa_nonoohcategories","logicalName":"crfaa_nonoohcategory"},"crfaa_approvermatrix":{"entitySetName":"crfaa_approvermatrixes","logicalName":"crfaa_approvermatrix"},"crfaa_nonoohtype":{"entitySetName":"crfaa_nonoohtypes","logicalName":"crfaa_nonoohtype"},"crfaa_bdacquisitionassessment":{"entitySetName":"crfaa_bdacquisitionassessments","logicalName":"crfaa_bdacquisitionassessment"},"crfaa_operationsassessment":{"entitySetName":"crfaa_operationsassessments","logicalName":"crfaa_operationsassessment"},"crfaa_siteevaluation":{"entitySetName":"crfaa_siteevaluations","logicalName":"crfaa_siteevaluation"},"crfaa_salesassessment":{"entitySetName":"crfaa_salesassessments","logicalName":"crfaa_salesassessment"},"crfaa_referenceimage":{"entitySetName":"crfaa_referenceimages","logicalName":"crfaa_referenceimage"},"crfaa_bdmanagementassessment":{"entitySetName":"crfaa_bdmanagementassessments","logicalName":"crfaa_bdmanagementassessment"},"crfaa_oohcategory":{"entitySetName":"crfaa_oohcategories","logicalName":"crfaa_oohcategory"},"crfaa_marketingassessment":{"entitySetName":"crfaa_marketingassessments","logicalName":"crfaa_marketingassessment"},"transactioncurrency":{"entitySetName":"transactioncurrencies","logicalName":"transactioncurrency"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>4</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"crfaa_industry","componenttype":1},{"logicalname":"crfaa_oohmedium","componenttype":1},{"logicalname":"crfaa_oohtype","componenttype":1},{"logicalname":"crfaa_departmentrequestor","componenttype":1},{"logicalname":"crfaa_departmentapprover","componenttype":1},{"logicalname":"crfaa_nonoohcategory","componenttype":1},{"logicalname":"crfaa_approvermatrix","componenttype":1},{"logicalname":"crfaa_nonoohtype","componenttype":1},{"logicalname":"crfaa_bdacquisitionassessment","componenttype":1},{"logicalname":"crfaa_operationsassessment","componenttype":1},{"logicalname":"crfaa_siteevaluation","componenttype":1},{"logicalname":"crfaa_salesassessment","componenttype":1},{"logicalname":"crfaa_referenceimage","componenttype":1},{"logicalname":"crfaa_bdmanagementassessment","componenttype":1},{"logicalname":"crfaa_oohcategory","componenttype":1},{"logicalname":"crfaa_marketingassessment","componenttype":1},{"logicalname":"transactioncurrency","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <CodeAppPackageUris>
+    <CodeAppPackageUri>/CanvasApps/crfaa_siteevaluationsystem_8ac1a_CodeAppPackages/index.html_ContentType_text/html</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/crfaa_siteevaluationsystem_8ac1a_CodeAppPackages/assets/index-4ripcGIP.js_ContentType_application/javascript</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/crfaa_siteevaluationsystem_8ac1a_CodeAppPackages/assets/index-CR6l3vBu.css_ContentType_text/css</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/crfaa_siteevaluationsystem_8ac1a_CodeAppPackages/favicon.ico_ContentType_image/x-icon</CodeAppPackageUri>
+  </CodeAppPackageUris>
+</CanvasApp>

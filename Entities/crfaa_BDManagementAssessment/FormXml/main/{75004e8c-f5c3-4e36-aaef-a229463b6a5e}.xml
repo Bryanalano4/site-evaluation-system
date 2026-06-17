@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{75004e8c-f5c3-4e36-aaef-a229463b6a5e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7c876d49-e14b-4125-b523-04b9a15a0852}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8df86f19-6e36-4301-a715-fbca7ac507d0}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c1a9f1fe-b1b1-488d-8ba6-8a3dbcaf94e3}">
+                        <labels>
+                          <label description="Assessment Name" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_assessmentname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crfaa_assessmentname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{863db383-87a6-4227-8eea-80cee1ed7bd0}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{830adb1f-6d80-4395-a9b1-23c559a3deb9}">
+                        <labels>
+                          <label description="Site Evaluation" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_siteevaluation" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crfaa_siteevaluation" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f13241ff-d949-43c2-8b72-abb0bbb13737}">
+                        <labels>
+                          <label description="IRR" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_irr" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_irr" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8174ecdc-9b28-40e8-bede-15de6a07ba38}">
+                        <labels>
+                          <label description="Contract of Lease" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_contractoflease" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_contractoflease" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0cd3372a-8bb9-4487-86d6-5d8ac2818c1f}">
+                        <labels>
+                          <label description="Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_remarks" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="crfaa_remarks" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{235f1b5b-c41a-43b4-88e0-a753bd48afca}">
+                        <labels>
+                          <label description="Submitted At" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_submittedat" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crfaa_submittedat" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

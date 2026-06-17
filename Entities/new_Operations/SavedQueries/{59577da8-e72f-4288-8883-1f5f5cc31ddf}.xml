@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{59577da8-e72f-4288-8883-1f5f5cc31ddf}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_operationsid">
+          <cell name="new_title" width="300" />
+          <cell name="new_requestid" width="150" />
+          <cell name="new_capex_x002d_constructioncost" width="150" />
+          <cell name="new_operatingexpenses" width="150" />
+          <cell name="new_printing" width="150" />
+          <cell name="new_fabrication" width="150" />
+          <cell name="new_installation" width="150" />
+          <cell name="new_dismantling" width="150" />
+          <cell name="new_forcemarjue" width="150" />
+          <cell name="new_billofmaterials" width="150" />
+          <cell name="new_remarks" width="150" />
+          <cell name="new_status" width="150" />
+          <cell name="new_updatedate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_operations">
+          <attribute name="new_operationsid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_requestid" />
+          <attribute name="new_capex_x002d_constructioncost" />
+          <attribute name="new_operatingexpenses" />
+          <attribute name="new_printing" />
+          <attribute name="new_fabrication" />
+          <attribute name="new_installation" />
+          <attribute name="new_dismantling" />
+          <attribute name="new_forcemarjue" />
+          <attribute name="new_billofmaterials" />
+          <attribute name="new_remarks" />
+          <attribute name="new_status" />
+          <attribute name="new_updatedate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Operationss" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

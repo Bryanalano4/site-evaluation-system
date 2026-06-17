@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bacdc4f9-5a4a-4f44-af80-0e1c91cdb59d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{88bf4e9b-29a7-45d2-b62b-232cfc16b7ec}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{d67a8252-3e37-4c78-bfd4-846c9e43116c}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6783a163-f3ff-4692-afb1-bc7a09747888}">
+                        <labels>
+                          <label description="Approver Name" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_approvername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crfaa_approvername" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d234f83c-f1c3-4659-aac5-93058a3f4f48}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{426bd347-e22c-4823-8694-440c138b52f0}">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_role" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_role" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59ba0faf-fe05-4bf5-97c8-5b470e89045d}">
+                        <labels>
+                          <label description="Approver Email" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_approveremail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_approveremail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dadefbeb-7696-40ca-9adb-ec644dffa6a0}">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_isactive" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="crfaa_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

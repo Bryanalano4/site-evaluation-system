@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{882f5b58-b3eb-4a3c-a783-a19c284afa80}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_bdaquisitionid">
+          <cell name="new_title" width="300" />
+          <cell name="new_requestid" width="150" />
+          <cell name="new_barangaypermit" width="150" />
+          <cell name="new_lgupermit" width="150" />
+          <cell name="new_dpwhpermit" width="150" />
+          <cell name="new_otherpermit" width="150" />
+          <cell name="new_innovation" width="150" />
+          <cell name="new_remarks" width="150" />
+          <cell name="new_status" width="150" />
+          <cell name="new_updatedate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_bdaquisition">
+          <attribute name="new_bdaquisitionid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_requestid" />
+          <attribute name="new_barangaypermit" />
+          <attribute name="new_lgupermit" />
+          <attribute name="new_dpwhpermit" />
+          <attribute name="new_otherpermit" />
+          <attribute name="new_innovation" />
+          <attribute name="new_remarks" />
+          <attribute name="new_status" />
+          <attribute name="new_updatedate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active BD Aquisitions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

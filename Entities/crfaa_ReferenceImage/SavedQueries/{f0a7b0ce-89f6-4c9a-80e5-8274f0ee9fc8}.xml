@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f0a7b0ce-89f6-4c9a-80e5-8274f0ee9fc8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crfaa_filename" select="1" icon="1" preview="1">
+        <row name="result" id="crfaa_referenceimageid">
+          <cell name="crfaa_filename" width="300" />
+          <cell name="crfaa_siteevaluation" width="150" />
+          <cell name="crfaa_imagedata" width="150" />
+          <cell name="crfaa_uploadedat" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crfaa_referenceimage">
+          <attribute name="crfaa_referenceimageid" />
+          <attribute name="crfaa_filename" />
+          <attribute name="createdon" />
+          <order attribute="crfaa_filename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crfaa_siteevaluation" />
+          <attribute name="crfaa_imagedata" />
+          <attribute name="crfaa_uploadedat" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Reference Images" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

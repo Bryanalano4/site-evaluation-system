@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{5d487c31-e47f-4bbe-bf56-8991c22087c3}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{f5dc2a7d-a2b3-4875-bd48-00e2841be5cd}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a10ded91-d758-4c38-b0fc-267593a500f7}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{4fb71252-fdc9-4853-b9fd-a0c875ec5a82}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="new_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c25b577-9363-4697-a2cc-574fe676ca50}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{495c5348-ea4f-4ab4-9c1f-a62da5548e6c}">
+                        <labels>
+                          <label description="Request ID" languagecode="1033" />
+                        </labels>
+                        <control id="new_requestid" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_requestid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e1a387e-130e-4424-a2e1-0adf0158b028}">
+                        <labels>
+                          <label description="IRR" languagecode="1033" />
+                        </labels>
+                        <control id="new_irr" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_irr" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1dd3817b-9b64-4c27-a576-3435cfecec7f}">
+                        <labels>
+                          <label description="Contract of List" languagecode="1033" />
+                        </labels>
+                        <control id="new_contractoflist" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_contractoflist" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{18c5bb0d-6763-49b3-beb1-76ec0164e91b}">
+                        <labels>
+                          <label description="Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="new_remarks" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_remarks" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e46c0142-e068-40da-9f66-a5a22dec3767}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="new_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3a99c62-300f-4112-97db-aeb41208dd9d}">
+                        <labels>
+                          <label description="Update Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_updatedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="new_updatedate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

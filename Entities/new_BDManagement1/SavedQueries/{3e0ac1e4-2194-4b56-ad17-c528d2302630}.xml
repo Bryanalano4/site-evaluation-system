@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3e0ac1e4-2194-4b56-ad17-c528d2302630}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_bdmanagement1id">
+          <cell name="new_title" width="300" />
+          <cell name="new_requestid" width="150" />
+          <cell name="new_irr" width="150" />
+          <cell name="new_contractoflist" width="150" />
+          <cell name="new_remarks" width="150" />
+          <cell name="new_status" width="150" />
+          <cell name="new_updatedate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_bdmanagement1">
+          <attribute name="new_bdmanagement1id" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_requestid" />
+          <attribute name="new_irr" />
+          <attribute name="new_contractoflist" />
+          <attribute name="new_remarks" />
+          <attribute name="new_status" />
+          <attribute name="new_updatedate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active BD Managements" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

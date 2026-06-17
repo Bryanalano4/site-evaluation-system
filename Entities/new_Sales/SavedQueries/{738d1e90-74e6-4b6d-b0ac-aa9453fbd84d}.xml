@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{738d1e90-74e6-4b6d-b0ac-aa9453fbd84d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_salesid">
+          <cell name="new_title" width="300" />
+          <cell name="new_request" width="150" />
+          <cell name="new_cbnumber" width="150" />
+          <cell name="new_status" width="150" />
+          <cell name="new_targetclients_x002f_team" width="150" />
+          <cell name="new_projectedloading" width="150" />
+          <cell name="new_projectedsellingrate" width="150" />
+          <cell name="new_remarks" width="150" />
+          <cell name="new_amountprojection" width="150" />
+          <cell name="new_updatedate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_sales">
+          <attribute name="new_salesid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_request" />
+          <attribute name="new_cbnumber" />
+          <attribute name="new_status" />
+          <attribute name="new_targetclients_x002f_team" />
+          <attribute name="new_projectedloading" />
+          <attribute name="new_projectedsellingrate" />
+          <attribute name="new_remarks" />
+          <attribute name="new_amountprojection" />
+          <attribute name="new_updatedate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Saless" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

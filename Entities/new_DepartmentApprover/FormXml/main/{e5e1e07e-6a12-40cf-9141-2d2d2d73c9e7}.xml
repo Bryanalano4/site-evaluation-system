@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e5e1e07e-6a12-40cf-9141-2d2d2d73c9e7}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{aece89e0-e498-4c42-9236-504f2efa8ae1}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6231bb76-be10-4978-b00b-32064af82e90}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c462fa82-bef5-4f6d-b4c7-583db4a0de14}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="new_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37a344f8-b567-4b6f-a314-2217d9ddf6da}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35e27a72-d1e7-4bf9-985c-1795456f9668}">
+                        <labels>
+                          <label description="Approver Name" languagecode="1033" />
+                        </labels>
+                        <control id="new_approvername" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_approvername" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{998afc7f-a00e-4020-8187-e2c96caf5c5d}">
+                        <labels>
+                          <label description="Approver Email" languagecode="1033" />
+                        </labels>
+                        <control id="new_approveremail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_approveremail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3f090133-5df0-40df-8772-3481f1c4bec9}">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="new_department" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_department" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6ca969a6-c92a-44d2-8b2e-d5a7fcdb6150}">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="new_role" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_role" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff3d2896-89b3-4132-9fdc-18bb11f07c7e}">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="new_isactive" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="new_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

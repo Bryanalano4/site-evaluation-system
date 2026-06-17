@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{750c060d-3e18-431b-9843-34077309a0fb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8730fc54-66d9-459f-86a4-f0ee8e518cf5}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f2f8ecec-9ccf-4756-9ae1-e7aec9acf189}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b16974cd-5f1a-432a-a054-d1c8d9d39a2c}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="new_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fe8f7b55-0ac7-4cee-a3b5-b20469654fe3}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{333626a8-f7a9-4c69-b256-044f1d03295d}">
+                        <labels>
+                          <label description="Request ID" languagecode="1033" />
+                        </labels>
+                        <control id="new_request" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_request" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2172c772-2d72-4cf8-a015-b11646b21269}">
+                        <labels>
+                          <label description="CB Number" languagecode="1033" />
+                        </labels>
+                        <control id="new_cbnumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_cbnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b7cbe5a-e1f7-4d3e-b83d-7028a9965cb1}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="new_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c98c3484-3379-4504-be41-3940038dc582}">
+                        <labels>
+                          <label description="Target Clients/ Team" languagecode="1033" />
+                        </labels>
+                        <control id="new_targetclients_x002f_team" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_targetclients_x002f_team" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d09fa55-3994-46d0-9154-ffe24ccd47af}">
+                        <labels>
+                          <label description="Projected Loading" languagecode="1033" />
+                        </labels>
+                        <control id="new_projectedloading" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_projectedloading" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a001fa24-5e99-4f5e-bba9-75eb44c03eeb}">
+                        <labels>
+                          <label description="Projected Selling Rate" languagecode="1033" />
+                        </labels>
+                        <control id="new_projectedsellingrate" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_projectedsellingrate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fb902e51-473b-4c0c-8d5b-c23344ecb3b5}">
+                        <labels>
+                          <label description="Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="new_remarks" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_remarks" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d5e41a7-61bf-49d6-98f6-b37d431c2b51}">
+                        <labels>
+                          <label description="Amount Projection" languagecode="1033" />
+                        </labels>
+                        <control id="new_amountprojection" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_amountprojection" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5da5d2ec-fb24-42a6-a7a2-caa8d1617969}">
+                        <labels>
+                          <label description="Update Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_updatedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="new_updatedate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

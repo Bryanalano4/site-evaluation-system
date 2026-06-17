@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1a039cdb-f509-4093-b435-2c4d47a2ab6f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{0231db95-2fe2-44f0-9db3-0602ff2b6c79}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ef82ca49-bd43-474e-9ba1-409b86606e6b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec65d322-a545-4142-a865-e27a2a1b80e1}">
+                        <labels>
+                          <label description="Approver Name" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_approvername" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crfaa_approvername" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5751c269-a3b9-4466-a753-49f3cbad1141}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3d2d32c9-0c85-43ac-8b9a-fa65379a57b2}">
+                        <labels>
+                          <label description="Approver Email" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_approveremail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_approveremail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca612ab2-b24a-498c-8552-75df396f4c53}">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_department" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_department" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81e21af2-bbc6-43e6-9725-82c0a47c9129}">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_role" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_role" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60887b89-e296-43d1-a1ee-5cab2c918495}">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_isactive" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="crfaa_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

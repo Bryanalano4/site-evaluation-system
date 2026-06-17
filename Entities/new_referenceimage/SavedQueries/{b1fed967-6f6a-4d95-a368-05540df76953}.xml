@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b1fed967-6f6a-4d95-a368-05540df76953}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_referenceimageid">
+          <cell name="new_title" width="300" />
+          <cell name="new_filename" width="150" />
+          <cell name="new_imagedata" width="150" />
+          <cell name="new_uploadedat" width="150" />
+          <cell name="new_requestid" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_referenceimage">
+          <attribute name="new_referenceimageid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_filename" />
+          <attribute name="new_imagedata" />
+          <attribute name="new_uploadedat" />
+          <attribute name="new_requestid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active reference images" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{b5b1b7e7-d07a-46e9-bc12-f77ddb2b2c8c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crfaa_name" select="1" icon="1" preview="1">
+        <row name="result" id="crfaa_industryid">
+          <cell name="crfaa_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crfaa_industry">
+          <attribute name="crfaa_industryid" />
+          <attribute name="crfaa_name" />
+          <attribute name="createdon" />
+          <order attribute="crfaa_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive Industries" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{58a827a7-c0b9-4a51-9d17-ce39c0e1c3d5}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_siteevaluationsystemid">
+          <cell name="new_title" width="300" />
+          <cell name="new_requestid" width="150" />
+          <cell name="new_sitename" width="150" />
+          <cell name="new_siteno_x002e_" width="150" />
+          <cell name="new_address" width="150" />
+          <cell name="new_googlecoordinates" width="150" />
+          <cell name="new_contractterm" width="150" />
+          <cell name="new_contractduration" width="150" />
+          <cell name="new_datecreated" width="150" />
+          <cell name="new_project" width="150" />
+          <cell name="new_oohcategory" width="150" />
+          <cell name="new_oohmedium" width="150" />
+          <cell name="new_oohtype" width="150" />
+          <cell name="new_non_x002d_oohcategory" width="150" />
+          <cell name="new_non_x002d_oohtype" width="150" />
+          <cell name="new_oohsize" width="150" />
+          <cell name="new_monthlyrental" width="150" />
+          <cell name="new_projectsellingrate" width="150" />
+          <cell name="new_status" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_siteevaluationsystem">
+          <attribute name="new_siteevaluationsystemid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_requestid" />
+          <attribute name="new_sitename" />
+          <attribute name="new_siteno_x002e_" />
+          <attribute name="new_address" />
+          <attribute name="new_googlecoordinates" />
+          <attribute name="new_contractterm" />
+          <attribute name="new_contractduration" />
+          <attribute name="new_datecreated" />
+          <attribute name="new_project" />
+          <attribute name="new_oohcategory" />
+          <attribute name="new_oohmedium" />
+          <attribute name="new_oohtype" />
+          <attribute name="new_non_x002d_oohcategory" />
+          <attribute name="new_non_x002d_oohtype" />
+          <attribute name="new_oohsize" />
+          <attribute name="new_monthlyrental" />
+          <attribute name="new_projectsellingrate" />
+          <attribute name="new_status" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Site Evaluation Systems" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

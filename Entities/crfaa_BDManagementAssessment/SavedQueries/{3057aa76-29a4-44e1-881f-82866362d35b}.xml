@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3057aa76-29a4-44e1-881f-82866362d35b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crfaa_assessmentname" select="1" icon="1" preview="1">
+        <row name="result" id="crfaa_bdmanagementassessmentid">
+          <cell name="crfaa_assessmentname" width="300" />
+          <cell name="crfaa_siteevaluation" width="150" />
+          <cell name="crfaa_irr" width="150" />
+          <cell name="crfaa_contractoflease" width="150" />
+          <cell name="crfaa_remarks" width="150" />
+          <cell name="crfaa_submittedat" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crfaa_bdmanagementassessment">
+          <attribute name="crfaa_bdmanagementassessmentid" />
+          <attribute name="crfaa_assessmentname" />
+          <attribute name="createdon" />
+          <order attribute="crfaa_assessmentname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crfaa_siteevaluation" />
+          <attribute name="crfaa_irr" />
+          <attribute name="crfaa_contractoflease" />
+          <attribute name="crfaa_remarks" />
+          <attribute name="crfaa_submittedat" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active BD Management Assessments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

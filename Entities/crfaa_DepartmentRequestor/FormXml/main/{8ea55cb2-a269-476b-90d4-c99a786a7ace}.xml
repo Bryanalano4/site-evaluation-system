@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8ea55cb2-a269-476b-90d4-c99a786a7ace}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{64093f79-36d8-47d0-babc-28c502101749}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2d1d4bb7-78fe-4603-9530-9a26b676795b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3499b23e-8a02-4e2a-8092-c642dd18bb6e}">
+                        <labels>
+                          <label description="Requestor Name" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_requestorname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crfaa_requestorname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{589fd861-f8f9-4e36-95c7-76a678f26649}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{450f0eba-8ef9-4e1b-9043-6eb5b08c9a54}">
+                        <labels>
+                          <label description="Requestor Email" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_requestoremail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crfaa_requestoremail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8c330ab-4377-479b-b70d-b0bb0435e98e}">
+                        <labels>
+                          <label description="Role" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_role" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crfaa_role" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bdbcac92-ffd6-484d-922c-f12d1e0fd1f3}">
+                        <labels>
+                          <label description="Is Active" languagecode="1033" />
+                        </labels>
+                        <control id="crfaa_isactive" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="crfaa_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

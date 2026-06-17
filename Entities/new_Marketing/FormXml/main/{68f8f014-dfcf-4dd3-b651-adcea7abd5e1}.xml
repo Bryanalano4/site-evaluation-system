@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{68f8f014-dfcf-4dd3-b651-adcea7abd5e1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{6f92e6aa-d418-4978-ab1f-3e369a30f963}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c4c75cd9-56e6-4b3a-8c07-1cde648c8845}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e594b4b2-3b75-49d7-9a65-12dafa8b135b}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="new_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06135c96-05d7-4405-9da8-12273d671f97}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0962c4fd-4b8f-41a1-b309-19686e39227e}">
+                        <labels>
+                          <label description="Request ID" languagecode="1033" />
+                        </labels>
+                        <control id="new_requestid" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_requestid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ac5e5b1-1382-4b0a-954c-8f635b06d8db}">
+                        <labels>
+                          <label description="Competitor" languagecode="1033" />
+                        </labels>
+                        <control id="new_competitor" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_competitor" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04fcd1fa-6479-44c5-9ed8-728aae04bec6}">
+                        <labels>
+                          <label description="Clients/ Brands" languagecode="1033" />
+                        </labels>
+                        <control id="new_clients_x002f_brands" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_clients_x002f_brands" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c279ca5-22dd-4710-8dfe-cae999914c9a}">
+                        <labels>
+                          <label description="Industry" languagecode="1033" />
+                        </labels>
+                        <control id="new_industry0" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_industry0" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{543cb297-329c-4aac-a208-58fe34cdc4ea}">
+                        <labels>
+                          <label description="Existing Site" languagecode="1033" />
+                        </labels>
+                        <control id="new_existing" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_existing" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3dbbedd-d165-463a-8a3a-4f1693a48367}">
+                        <labels>
+                          <label description="New Site" languagecode="1033" />
+                        </labels>
+                        <control id="new_newsite_x0028_promoprogram_x0029" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_newsite_x0028_promoprogram_x0029" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3fc823a4-c59e-47bc-8457-da58dc054955}">
+                        <labels>
+                          <label description="Remarks" languagecode="1033" />
+                        </labels>
+                        <control id="new_remarks" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_remarks" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c39f16b7-05e3-43ee-84d8-d9e41805c29a}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="new_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="new_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1589478-f3c8-4b8c-b57d-83b5540cc9a8}">
+                        <labels>
+                          <label description="Update Date" languagecode="1033" />
+                        </labels>
+                        <control id="new_updatedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="new_updatedate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2776b0e0-260e-4d0c-af3c-20dddbd66340}">
+                        <labels>
+                          <label description="Industry1" languagecode="1033" />
+                        </labels>
+                        <control id="new_industry" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_industry" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

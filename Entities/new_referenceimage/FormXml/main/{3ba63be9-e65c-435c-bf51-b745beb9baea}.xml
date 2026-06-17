@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3ba63be9-e65c-435c-bf51-b745beb9baea}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{f9a3e0af-7601-4f36-8d8b-abeeafae363b}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e52da58e-199b-4745-ab87-014555dd507f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1213bf1a-852f-4dc1-a617-5b809c404045}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="new_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ef55da7a-56dc-41a1-92ff-25eaf069a015}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f1b2456-b018-4256-a4c2-2955d4db3c85}">
+                        <labels>
+                          <label description="FileName" languagecode="1033" />
+                        </labels>
+                        <control id="new_filename" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_filename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8bbb7873-1abc-4c1c-9eaf-e081a0f20a51}">
+                        <labels>
+                          <label description="ImageData" languagecode="1033" />
+                        </labels>
+                        <control id="new_imagedata" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="new_imagedata" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{536cdf3d-0df9-4202-9caf-168f90ee3305}">
+                        <labels>
+                          <label description="UploadedAt" languagecode="1033" />
+                        </labels>
+                        <control id="new_uploadedat" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="new_uploadedat" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4157eaf6-b18c-4c9d-a602-4d915d13d6ed}">
+                        <labels>
+                          <label description="RequestID" languagecode="1033" />
+                        </labels>
+                        <control id="new_requestid" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="new_requestid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

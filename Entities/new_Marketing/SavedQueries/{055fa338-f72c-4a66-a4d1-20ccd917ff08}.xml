@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{055fa338-f72c-4a66-a4d1-20ccd917ff08}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="new_title" select="1" icon="1" preview="1">
+        <row name="result" id="new_marketingid">
+          <cell name="new_title" width="300" />
+          <cell name="new_requestid" width="150" />
+          <cell name="new_competitor" width="150" />
+          <cell name="new_clients_x002f_brands" width="150" />
+          <cell name="new_industry0" width="150" />
+          <cell name="new_existing" width="150" />
+          <cell name="new_newsite_x0028_promoprogram_x0029" width="150" />
+          <cell name="new_remarks" width="150" />
+          <cell name="new_status" width="150" />
+          <cell name="new_updatedate" width="150" />
+          <cell name="new_industry" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="new_marketing">
+          <attribute name="new_marketingid" />
+          <attribute name="new_title" />
+          <attribute name="createdon" />
+          <order attribute="new_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="new_requestid" />
+          <attribute name="new_competitor" />
+          <attribute name="new_clients_x002f_brands" />
+          <attribute name="new_industry0" />
+          <attribute name="new_existing" />
+          <attribute name="new_newsite_x0028_promoprogram_x0029" />
+          <attribute name="new_remarks" />
+          <attribute name="new_status" />
+          <attribute name="new_updatedate" />
+          <attribute name="new_industry" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Marketings" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

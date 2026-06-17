@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c679c9ec-4e40-495c-82a9-47010bdbb4a6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crfaa_requestid" select="1" icon="1" preview="1">
+        <row name="result" id="crfaa_siteevaluationid">
+          <cell name="crfaa_requestid" width="300" />
+          <cell name="crfaa_sitename" width="150" />
+          <cell name="crfaa_sitenumber" width="150" />
+          <cell name="crfaa_address" width="150" />
+          <cell name="crfaa_googlecoordinates" width="150" />
+          <cell name="crfaa_contractterm" width="150" />
+          <cell name="crfaa_contractduration" width="150" />
+          <cell name="crfaa_createdby" width="150" />
+          <cell name="crfaa_datecreated" width="150" />
+          <cell name="crfaa_serialnumber" width="150" />
+          <cell name="crfaa_projecttype" width="150" />
+          <cell name="crfaa_oohcategory" width="150" />
+          <cell name="crfaa_oohmedium" width="150" />
+          <cell name="crfaa_oohtype" width="150" />
+          <cell name="crfaa_nonoohcategory" width="150" />
+          <cell name="crfaa_nonoohtype" width="150" />
+          <cell name="crfaa_size" width="150" />
+          <cell name="crfaa_monthlyrental" width="150" />
+          <cell name="crfaa_projectedsellingrate" width="150" />
+          <cell name="crfaa_attachmenturl" width="150" />
+          <cell name="crfaa_status" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crfaa_siteevaluation">
+          <attribute name="crfaa_siteevaluationid" />
+          <attribute name="crfaa_requestid" />
+          <attribute name="createdon" />
+          <order attribute="crfaa_requestid" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crfaa_sitename" />
+          <attribute name="crfaa_sitenumber" />
+          <attribute name="crfaa_address" />
+          <attribute name="crfaa_googlecoordinates" />
+          <attribute name="crfaa_contractterm" />
+          <attribute name="crfaa_contractduration" />
+          <attribute name="crfaa_createdby" />
+          <attribute name="crfaa_datecreated" />
+          <attribute name="crfaa_serialnumber" />
+          <attribute name="crfaa_projecttype" />
+          <attribute name="crfaa_oohcategory" />
+          <attribute name="crfaa_oohmedium" />
+          <attribute name="crfaa_oohtype" />
+          <attribute name="crfaa_nonoohcategory" />
+          <attribute name="crfaa_nonoohtype" />
+          <attribute name="crfaa_size" />
+          <attribute name="crfaa_monthlyrental" />
+          <attribute name="crfaa_projectedsellingrate" />
+          <attribute name="crfaa_attachmenturl" />
+          <attribute name="crfaa_status" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Site Evaluations" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
